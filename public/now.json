@@ -1,0 +1,15 @@
+{
+   "version": 2,
+   "alias": "fabian-star-wars",
+   "name": "fabian-deploy-sw",
+   "routes": [
+       {
+         "src": "^/static/(.*)",
+         "dest": "/static/$1"
+       },
+       {
+         "src": ".*",
+         "dest": "/index.html"
+       }
+   ]
+ }
